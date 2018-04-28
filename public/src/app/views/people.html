@@ -1,0 +1,8 @@
+<div>
+    <ol>
+        <li ng-repeat="person in $ctrl.people">
+            <a ui-sref="{{person.href}}" ui-sref-active="active">{{person.name}}</a>
+        </li>
+    </ol>
+    <ui-view></ui-view>
+</div>
